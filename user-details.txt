@@ -1,0 +1,36 @@
+Sunday - 17 March 2024 - 10:30pm
+
+// REGISTER - POST //
+{
+    "username":"zakwan0497",
+    "email":"zakwan0497@email.com",
+    "password":"Abc1234567"
+}
+{
+    "success": true,
+    "message": "User has been created",
+    "id": "85"
+}
+
+
+// LOGIN - POST //
+{
+    "username":"zakwan0497",
+    "password":"Abc1234567"
+}
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5rZWxhc3Byb2dyYW1taW5nLmNvbS50ZXN0Iiwic3ViIjoiOTkzM2NlMDEtZGU5Ny01M2FlLTg5OTUtNTIzZTExYTljMzQ3IiwiaWF0IjoxNzEwNjg2MDIxLCJleHAiOjE3MTA4NTg4MjEsIm5hbWUiOiJ6YWt3YW4wNDk3In0.3qtwG-f2wI7TFovAP1Eg8ob6XsnPnvTpy-JkwktIFhw",
+    "expires_in": 172800,
+    "refresh_token": "8d113daf9f2b90d90ce3-1bf395704d1efb441b18ba9ce38dce610a444fb7b76dbb54-1378cffb67",
+    "scope": "consumer,consumer.account,consumer.app,consumer.event,consumer.grant,consumer.identity,consumer.log,consumer.page,consumer.payment,consumer.plan,consumer.scope,consumer.subscription,consumer.transaction,authorization,default"
+}
+
+
+// CREATE - POST //
+{
+    "success": true,
+    "message": "Entry successful created",
+    "id": "522"
+}
+
+
